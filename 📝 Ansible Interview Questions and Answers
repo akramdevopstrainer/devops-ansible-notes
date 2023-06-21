@@ -1,0 +1,42 @@
+1. **Q: What is Ansible?**
+   - Ansible is an open-source automation tool used for configuration management, application deployment, and task automation. 
+     It simplifies the management and orchestration of IT infrastructure by using declarative language and agentless architecture.
+
+2. **Q: What is the difference between Ansible and other configuration management tools like Chef or Puppet?**
+   - Unlike other tools that rely on a master-agent architecture, Ansible follows an agentless approach. It communicates with remote 
+     hosts using SSH or WinRM, which makes it easy to set up and manage. Ansible also uses a simple YAML syntax for playbooks, 
+     making it more human-readable and easier to learn.
+
+3. **Q: What are Ansible playbooks?**
+   - Ansible playbooks are YAML files that define a set of tasks to be executed on remote hosts. They provide a way to automate complex 
+     configurations, deployments, and orchestration by organizing tasks in a logical structure.
+
+4. **Q: What is an Ansible role?**
+   - An Ansible role is a pre-defined set of tasks, templates, variables, and files that can be reused across multiple playbooks. 
+     Roles promote modularization and reusability, making it easier to organize and maintain Ansible code.
+
+5. **Q: How does Ansible ensure idempotency?**
+   - Ansible ensures idempotency by checking the current state of the system before executing a task. It only performs the necessary actions to 
+     bring the system to the desired state, regardless of how many times the task is executed. This prevents unintended changes and allows for 
+     safe and predictable automation.
+
+6. **Q: How can you handle sensitive data, such as passwords, in Ansible?**
+   - Ansible provides a feature called Ansible Vault to encrypt and decrypt sensitive data. Vault allows you to securely store passwords, 
+     API keys, or other confidential information in your playbooks or variable files.
+
+7. **Q: What is the difference between Ansible tasks and handlers?**
+   - Tasks are units of work performed by Ansible, while handlers are special tasks that are only executed when triggered. 
+     Handlers are typically used to respond to specific events, such as service restarts or configuration changes.
+
+8. **Q: How can you manage multiple servers or hosts in Ansible?**
+   - Ansible uses an inventory file to manage multiple servers or hosts. The inventory file lists the hostnames or IP addresses of the servers and 
+     groups them into categories. It allows you to define variables and group-specific settings for different sets of hosts.
+
+9. **Q: What are Ansible facts?**
+   - Ansible facts are system information collected from remote hosts during the playbook execution. Facts include details like the operating system,
+     IP addresses, hardware information, and more. They can be used as variables in playbooks to make automation more dynamic.
+
+10. **Q: How can you debug Ansible playbooks?**
+    - Ansible provides various methods for debugging, such as the `debug` module, which allows you to print variable values or 
+      debug messages during playbook execution. You can also use the `ansible-playbook` command with the `-vvv` option to get 
+      verbose output and track the execution flow.
