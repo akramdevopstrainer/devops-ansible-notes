@@ -1,0 +1,44 @@
+
+1. **ansible**:
+   - Command: `ansible <hostname> -m ping`
+   - Summary: Check connectivity to a host by sending a ping request.
+
+2. **ansible-playbook**:
+   - Command: `ansible-playbook playbook.yml`
+   - Summary: Execute an Ansible playbook named `playbook.yml` that contains a series of tasks.
+
+3. **ansible-galaxy**:
+   - Command: `ansible-galaxy install username.role_name`
+   - Summary: Install an Ansible role from Ansible Galaxy, a repository for sharing and managing roles.
+
+4. **ansible-vault**:
+   - Command: `ansible-vault encrypt file.yml`
+   - Summary: Encrypt a YAML file named `file.yml` using Ansible Vault for secure storage of sensitive data.
+
+5. **ansible-doc**:
+   - Command: `ansible-doc module_name`
+   - Summary: Display documentation for a specific Ansible module, providing information about its usage and options.
+
+6. **ansible-config**:
+   - Command: `ansible-config view`
+   - Summary: View Ansible's configuration settings, including inventory file locations, module paths, and connection settings.
+
+7. **ansible-inventory**:
+   - Command: `ansible-inventory --list`
+   - Summary: Display the inventory of hosts defined in your Ansible setup, showing hosts and groups.
+
+8. **ansible-console**:
+   - Command: `ansible-console`
+   - Summary: Open an interactive console to run ad-hoc commands or execute tasks against remote hosts.
+
+9. **ansible-pull**:
+   - Command: `ansible-pull -U repository-url playbook.yml`
+   - Summary: Pull a playbook from a repository URL and execute it on the local machine.
+
+10. **ansible-lint**:
+    - Command: `ansible-lint playbook.yml`
+    - Summary: Run linting checks on an Ansible playbook named `playbook.yml` to identify best practices, style issues, and potential errors.
+
+These examples illustrate various Ansible commands and their use cases. 
+You can customize the commands by replacing `<hostname>`, `playbook.yml`, `username.role_name`, `file.yml`, or `module_name` with the 
+appropriate values based on your specific requirements.
