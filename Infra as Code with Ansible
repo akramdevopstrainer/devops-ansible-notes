@@ -1,0 +1,38 @@
+# Infra as Code with Ansible
+
+## Non-tech Example/Analogy
+
+Imagine you want to build a LEGO model of a house. Instead of manually assembling each piece every time you want to create the house, 
+you create a set of instructions using LEGO bricks. These instructions act as a blueprint for building the house. Infra as Code, similarly, 
+allows you to define and manage your infrastructure using code. It provides a set of instructions that can be automatically executed to create 
+and configure your desired infrastructure.
+
+## Tech Example/Analogy
+In the tech world, Infra as Code is like using a programming language to define and manage your infrastructure. 
+Instead of manually setting up servers, networks, and services, you write code that represents your desired infrastructure state. 
+Just like a blueprint for a house, this code can be version controlled, shared, and executed to create and maintain your infrastructure. 
+Ansible, a popular Infra as Code tool, helps you automate and manage infrastructure configurations through code.
+
+🚀 **Day-to-Day Usage for a DevOps Engineer**:
+
+1️⃣ **Consistency and Reproducibility**: Infra as Code enables DevOps engineers to define their infrastructure configurations in code. 
+This allows for consistent and reproducible deployments, as the infrastructure can be easily recreated using the same code across 
+different environments.
+
+2️⃣ **Scalability and Efficiency**: With Infra as Code, scaling your infrastructure becomes easier. You can define reusable code modules to 
+provision additional resources quickly. This ensures that your infrastructure grows efficiently as your needs evolve.
+
+3️⃣ **Version Control and Collaboration**: Infrastructure code can be managed using version control systems like Git. 
+This enables teams to collaborate effectively by tracking changes, reviewing code, and working together to improve infrastructure configurations.
+
+4️⃣ **Automation and Continuous Delivery**: Infra as Code allows for automation of infrastructure management tasks. 
+With tools like Ansible, you can automate the provisioning, configuration, and deployment of infrastructure resources, 
+ensuring faster and more reliable deployments.
+
+5️⃣ **Infrastructure Testing**: Infra as Code enables the implementation of infrastructure testing practices. 
+By writing tests for your infrastructure code, you can verify that your infrastructure meets the desired state, 
+ensuring stability and reducing risks.
+
+🌟 Infra as Code, supported by tools like Ansible, brings the benefits of automation, consistency, scalability, and collaboration to 
+infrastructure management. By treating infrastructure configurations as code, DevOps engineers can efficiently manage and evolve their
+infrastructure in a controlled and predictable manner.
