@@ -1,26 +1,32 @@
 📚 **Ansible in DevOps**
 
-🌟 Ansible is a powerful tool that simplifies complex tasks, reduces manual effort, and improves efficiency in DevOps practices. It acts as a bridge between developers and operations teams, enabling collaboration and accelerating the delivery of reliable software systems.
-
-
+🌟 Ansible is a powerful tool that simplifies complex tasks, reduces manual effort, and improves efficiency in DevOps practices. 
+It acts as a bridge between developers and operations teams, enabling collaboration and accelerating the delivery of reliable software systems.
 
 ## Non-tech Example/Analogy:
 
-Imagine you have a toy factory with different workers responsible for different tasks. One worker assembles the parts, another paints them, and a third worker packs the toys in boxes. Ansible is like a supervisor who tells each worker what to do and ensures everything runs smoothly. It helps coordinate and automate tasks without the need for manual intervention.
+Imagine you have a toy factory with different workers responsible for different tasks. One worker assembles the parts, another paints them, and a third worker packs the toys in boxes.
+Ansible is like a supervisor who tells each worker what to do and ensures everything runs smoothly. It helps coordinate and automate tasks without the need for manual intervention.
 
 ## Tech Example/Analogy:
 
-In the tech world, Ansible is like a magic wand that automates and simplifies tasks performed by IT teams. It allows you to manage and control multiple servers, configure software, and deploy applications seamlessly. Just like a factory supervisor, Ansible ensures consistency and efficiency in managing complex IT environments.
+In the tech world, Ansible is like a magic wand that automates and simplifies tasks performed by IT teams. It allows you to manage and control multiple servers, configure software, 
+and deploy applications seamlessly. Just like a factory supervisor, Ansible ensures consistency and efficiency in managing complex IT environments.
 
 🚀 **Day-to-Day Usage for a DevOps Engineer**:
 
-1️⃣ **Configuration Management**: Ansible helps in setting up and maintaining consistent configurations across servers. It can install software, manage files, and configure settings, ensuring all systems are in sync.
+1️⃣ **Configuration Management**: Ansible helps in setting up and maintaining consistent configurations across servers. It can install software, manage files, and configure settings, 
+ensuring all systems are in sync.
 
-2️⃣ **Provisioning Infrastructure**: Ansible automates the creation and configuration of infrastructure resources, such as virtual machines, cloud instances, and containers. It saves time by eliminating manual setups.
+2️⃣ **Provisioning Infrastructure**: Ansible automates the creation and configuration of infrastructure resources, such as virtual machines, cloud instances, and containers. 
+It saves time by eliminating manual setups.
 
-3️⃣ **Application Deployment**: Ansible streamlines the deployment process by automating the steps required to deploy applications. It ensures consistent deployments across different environments, reducing errors and downtime.
+3️⃣ **Application Deployment**: Ansible streamlines the deployment process by automating the steps required to deploy applications. 
+It ensures consistent deployments across different environments, reducing errors and downtime.
 
-4️⃣ **Continuous Delivery**: Ansible integrates with CI/CD pipelines, allowing seamless application deployments. DevOps engineers use Ansible to orchestrate the entire release process, from building code to deploying it to production.
+4️⃣ **Continuous Delivery**: Ansible integrates with CI/CD pipelines, allowing seamless application deployments. 
+DevOps engineers use Ansible to orchestrate the entire release process, from building code to deploying it to production.
 
-5️⃣ **Monitoring and Compliance**: Ansible enables monitoring configuration consistency and enforcing compliance policies. It can perform checks, gather metrics, and ensure systems adhere to security and compliance standards.
+5️⃣ **Monitoring and Compliance**: Ansible enables monitoring configuration consistency and enforcing compliance policies. 
+It can perform checks, gather metrics, and ensure systems adhere to security and compliance standards.
 
